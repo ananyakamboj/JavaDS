@@ -1,13 +1,19 @@
 class Papa
 {
-	void fun()
+	int age=45;
+	void fun()//Same signature
 	{
 		System.out.println("Hi, I am papa");
+	}
+	Papa()
+	{
+		System.out.println("Default constructor of Papa: My dad's age is"+this.age);
 	}
 }
 class Beta extends Papa
 {
-	void fun()
+	int age=20;
+	void fun()//same signature
 	{
 		System.out.println("Hi, I am beta.");
 	}
@@ -15,6 +21,14 @@ class Beta extends Papa
 	{
 		super.fun();
 	}
+	Beta()
+	{
+		System.out.println("My age is "+this.age);
+		System.out.println("My papa's age is "+super.age);//referring to instance variable of parent class
+		
+	}
+	
+	
 }
 public class MethodOverriding {
 
