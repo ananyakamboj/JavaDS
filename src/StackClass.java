@@ -1,5 +1,5 @@
 import java.util.*;
-//Stack is a predefined class in 
+//Stack is a predefined class in java util
 public class StackClass {
 
 	public static void main(String[] args) {
