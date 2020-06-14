@@ -17,7 +17,7 @@ public class jaggedArray {
 			{
 				System.out.print(a[i][j]+" ");
 			}
-			System.out.println();
+			System.out.println();//
 		}
 		
 		int b[]= {1,2,3,4};
